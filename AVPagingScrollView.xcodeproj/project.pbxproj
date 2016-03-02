@@ -12,8 +12,8 @@
 		107B1D461C858AA100F771AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107B1D441C858AA100F771AF /* Main.storyboard */; };
 		107B1D481C858AA100F771AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 107B1D471C858AA100F771AF /* Assets.xcassets */; };
 		107B1D4B1C858AA100F771AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107B1D491C858AA100F771AF /* LaunchScreen.storyboard */; };
-		107B1D531C858ADD00F771AF /* AVPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107B1D521C858ADD00F771AF /* AVPageView.swift */; };
-		107B1D551C858B1C00F771AF /* AVPagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107B1D541C858B1C00F771AF /* AVPagingScrollView.swift */; };
+		10B87C151C870CED00AE7B59 /* AVPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B87C131C870CED00AE7B59 /* AVPageView.swift */; };
+		10B87C161C870CED00AE7B59 /* AVPagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B87C141C870CED00AE7B59 /* AVPagingScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		107B1D471C858AA100F771AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		107B1D4A1C858AA100F771AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		107B1D4C1C858AA100F771AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		107B1D521C858ADD00F771AF /* AVPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AVPageView.swift; path = AVPagingScrollView/AVPageView.swift; sourceTree = "<group>"; };
-		107B1D541C858B1C00F771AF /* AVPagingScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AVPagingScrollView.swift; path = AVPagingScrollView/AVPagingScrollView.swift; sourceTree = "<group>"; };
+		10B87C131C870CED00AE7B59 /* AVPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPageView.swift; sourceTree = "<group>"; };
+		10B87C141C870CED00AE7B59 /* AVPagingScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPagingScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +60,20 @@
 			children = (
 				107B1D401C858AA100F771AF /* AppDelegate.swift */,
 				107B1D421C858AA100F771AF /* ViewController.swift */,
-				107B1D541C858B1C00F771AF /* AVPagingScrollView.swift */,
-				107B1D521C858ADD00F771AF /* AVPageView.swift */,
+				10B87C121C870CED00AE7B59 /* AVPagingScrollView */,
 				107B1D441C858AA100F771AF /* Main.storyboard */,
 				107B1D471C858AA100F771AF /* Assets.xcassets */,
 				107B1D491C858AA100F771AF /* LaunchScreen.storyboard */,
 				107B1D4C1C858AA100F771AF /* Info.plist */,
+			);
+			path = AVPagingScrollView;
+			sourceTree = "<group>";
+		};
+		10B87C121C870CED00AE7B59 /* AVPagingScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				10B87C131C870CED00AE7B59 /* AVPageView.swift */,
+				10B87C141C870CED00AE7B59 /* AVPagingScrollView.swift */,
 			);
 			path = AVPagingScrollView;
 			sourceTree = "<group>";
@@ -141,9 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				107B1D531C858ADD00F771AF /* AVPageView.swift in Sources */,
+				10B87C151C870CED00AE7B59 /* AVPageView.swift in Sources */,
 				107B1D431C858AA100F771AF /* ViewController.swift in Sources */,
-				107B1D551C858B1C00F771AF /* AVPagingScrollView.swift in Sources */,
+				10B87C161C870CED00AE7B59 /* AVPagingScrollView.swift in Sources */,
 				107B1D411C858AA100F771AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

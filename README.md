@@ -1,4 +1,4 @@
-# AVPagingScrollView## AVPagingScrollView in Swift
+## AVPagingScrollView in Swift
 
 
 ## Description
